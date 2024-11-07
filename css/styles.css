@@ -1,0 +1,30 @@
+* {
+  background: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+}
+.up {
+  height: 80vh;
+  padding: 10px;
+}
+.up div {
+  width: 70%;
+  margin-left: 4.7rem;
+}
+img {
+  width: 80%;
+  height: auto;
+  margin-top: 0;
+}
+button {
+  border: none;
+  background-color: white;
+  padding: 15px 40px;
+  border-radius: 1rem;
+  color: black;
+  font-size: 1rem;
+  cursor: pointer;
+}
