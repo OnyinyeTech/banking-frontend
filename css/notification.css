@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+    color: black;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.noti, .withd{
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 10px;
+    padding-top: 2rem;
+}
+a{
+    text-decoration: none;
+    color: green;
+    border: 0 ;
+    background-color: white;
+    border-radius: 1rem;
+    font-size: .8rem;
+    padding: 7px;
+    padding-inline: 1.5rem;
+}
+.body-img{
+    padding: 10px;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+img{
+    width: 10%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+/* Withdraw */
+.withd{
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* padding: 10px;
+    padding-top: 2rem; */
+    border-radius: 1rem;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+
+}
+.withd nav{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    padding: 10px;
+    padding-top: 0;
+    font-size: .8rem;
+}
+.withd nav section{
+    width: 75%;
+}
+
+/* to dbanking */
+
+.form-con{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 20px;
+    margin-top: 1rem;
+    border-radius: 1rem;
+}
+.input-con{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+.input-con input{
+    padding: 12px 25px;
+    border-radius: .5rem;
+    border: 0;
+    background-color: whitesmoke
+}
+h2, p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+h1{
+    padding-top: 7rem;
+    padding-left: 18rem;
+    font-size: 1.5rem;
+}
+.btn{
+    color: white;
+    border: none;
+    padding: 7px 18px;
+    border-radius: .6rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: green;
+}
+.btn a{
+    color: white;
+}
